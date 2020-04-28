@@ -38,4 +38,4 @@ foreach($stmt as $key => $row){
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, DELETE, PUT');
 header('Content-Type: application/json');
-echo json_encode($appdata);
+echo json_encode($appdata,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);

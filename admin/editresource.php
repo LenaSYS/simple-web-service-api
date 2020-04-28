@@ -140,7 +140,7 @@
 			}				
 			echo "</table>\n";
 			echo "<h3>JSON</h3>";
-			echo json_encode($appdata);
+			echo json_encode($appdata,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 			
 ?>
 </body>
