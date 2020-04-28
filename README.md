@@ -8,3 +8,9 @@ This work is based on @HGustavs code in https://github.com/HGustavs/Webbprogramm
 2. Edit the file `booking/dbaccess.php`
     1. Replace "__ENTER_YOUR_DB_USER_HERE__" with a user that has read/write access to the newly created MobilProg database
     2. Replace "__ENTER_YOUR_DB_USER_PASSWORD_HERE__" for the db user in step 2.i
+
+# Usage JSON
+To get resources filtered by LOGIN
+```
+http://localhost/simple-web-service-api/admin/getdataasjson.php?filter=LOGIN
+```
