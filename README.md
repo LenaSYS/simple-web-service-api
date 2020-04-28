@@ -12,5 +12,5 @@ This work is based on @HGustavs code in https://github.com/HGustavs/Webbprogramm
 # Usage JSON
 To get resources filtered by LOGIN
 ```
-http://localhost/simple-web-service-api/admin/getdataasjson.php?filter=LOGIN
+http://localhost/simple-web-service-api/admin/getdataasjson.php?login=LOGIN
 ```
