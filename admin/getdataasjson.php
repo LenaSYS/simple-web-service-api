@@ -1,13 +1,12 @@
-﻿<?php
+<?php
 include '../booking/dbconnect.php';													
 $filter = "UNK";
 $appdata = array();
 if(isset($_GET['type'])){
-	$filter = $_GET['type'];
+		$filter = $_GET['type'];
 } else if (isset($_GET['login'])){
-	$filter = $_GET['login'];
+		$filter = $_GET['login'];
 }
-dbConnect();
 
 //---------------------------------------------------------------------------------------------------------------
 // Search Query!
